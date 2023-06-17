@@ -41,7 +41,7 @@
         <td><?= $vereador->partido ?></td>
         <td><?= $vereador->cidade ?></td>
         <td class="text-end" width="25%">
-        <a href="formulario.php?id=<?= $vereador->idvereador ?>" class="btn btn-primary">
+        <a href="formulario.php?idvereador=<?= $vereador->idvereador ?>" class="btn btn-primary">
             <i class="fa-regular fa-pen-to-square"></i>
             Atualizar
           </a>

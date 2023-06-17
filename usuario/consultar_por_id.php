@@ -4,12 +4,12 @@
    require_once "../banco/conexao.php";
 
    //verifica se foi enviada o param id pela URL
-      if(isset($_GET['id'])){
+      if(isset($_GET['idvereador'])){
 
-   $id = $_GET['id'];
+   $id = $_GET['idvereador'];
 
    //cria uma variável com um comando SQL
-   $SQL = "SELECT * FROM `vereadores` WHERE  `id_vereador`= ? ;";
+   $SQL = "SELECT * FROM `vereadores` WHERE  `idvereador`= ? ;";
  
    //prepara o comando para ser executado no mysql
    $comando = $conexao->prepare($SQL);
@@ -24,7 +24,7 @@
 $resultados = $comando->get_result();
 
 //pega a primeira linha de resultado da consulta
-$usuario = $resultados->fetch_object();
+$vereador = $resultados->fetch_object();
 
 
    }

@@ -21,13 +21,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../imagem/coala.jpg" class="d-block w-100" alt="...">
+      <img src="../imagens/dd.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../imagem/fofo.jpg" class="d-block w-100" alt="...">
+      <img src="../imagens/imagens.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../imagem/iguana.jpg" class="d-block w-100" alt="...">
+      <img src="../imagens/vereador.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

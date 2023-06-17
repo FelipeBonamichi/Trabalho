@@ -16,14 +16,14 @@
 <body>
     <h1>Cadastro do vereador</h1>
     <hr>
-    <form action="<?php echo isset($usuario) ?
+    <form action="<?php echo isset($vereador) ?
                             "atualizar.php" : 
                             "inserir.php"; ?>"
                             
 method="post" enctype="multipart/form-data">
 
 
-<input type="hidden" name="id_vereador" value="<?php echo $vereador->idvereador ??"" ;?>"><br>               
+<input type="hidden" name="idvereador" value="<?php echo $vereador->idvereador ??"" ;?>"><br>               
 
         <label>Nome</label><br>
         <input type="text" name="nome" value="<?php echo $vereador->nome ??"" ;?>"><br>
