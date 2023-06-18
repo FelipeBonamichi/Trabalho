@@ -21,10 +21,10 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../imagens/dd.jpg" class="d-block w-100" alt="...">
+      <img src="../imagens/dd.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../imagens/imagens.jpg" class="d-block w-100" alt="...">
+      <img src="../imagens/papa.png" class="d-block w-100" width="30px" alt="...">
     </div>
     <div class="carousel-item">
       <img src="../imagens/vereador.jpg" class="d-block w-100" alt="...">
